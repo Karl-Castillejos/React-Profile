@@ -1,0 +1,147 @@
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif; /* Modern, readable font */
+  background-color: #f8f3e4; /* Light beige background color */
+  color: #4b3d28; /* Dark brown text for better contrast */
+  margin: 0; /* Remove default margin */
+  padding: 20px; /* Add padding around the body */
+}
+
+/* App Container */
+.App {
+  text-align: center; /* Center align text */
+}
+
+/* Main Container */
+.container {
+  max-width: 800px; /* Limit container width for better readability */
+  margin: 20px auto; /* Center the container */
+  background-color: #ffffff; /* White background for the container */
+  border-radius: 10px; /* Rounded corners */
+  padding: 30px; /* Inner padding for spacing */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading Styles */
+h1, h2 {
+  text-align: center; /* Center the headings */
+  margin: 20px 0; /* Add margin for spacing */
+  color: #4b3d28; /* Dark brown for headings */
+}
+
+/* Specific Styles for h1 */
+h1 {
+  font-size: 2.5rem; /* Larger size for main title */
+  font-weight: bold; /* Bold font for emphasis */
+}
+
+/* Specific Styles for h2 */
+h2 {
+  font-size: 1.8rem; /* Slightly smaller than h1 */
+  font-weight: normal; /* Normal weight for subheading */
+}
+
+/* Paragraph Styling */
+p {
+  font-size: 1rem; /* Base font size */
+  line-height: 1.6; /* Increase line height for readability */
+  margin: 10px 0; /* Add margin for spacing */
+}
+
+/* Navigation Styling */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5e7c8; /* Light beige background for the navbar */
+  padding: 15px;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-link {
+  color: #4b3d28; /* Dark brown for the text */
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Hover and Active Effects */
+.nav-link:hover {
+  color: #6a4f38; /* Medium brown on hover */
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.nav-link.active {
+  color: #4b3d28; /* Dark brown for the active link */
+}
+
+/* Form Styling */
+form {
+  background-color: #fff9f3; /* Very light beige background */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .form-control {
+  border-color: #4b3d28; /* Dark brown border for input fields */
+  border-radius: 5px;
+}
+
+/* Submit Button */
+.btn-primary {
+  background-color: #4b3d28; /* Dark brown button */
+  border: none;
+  color: #ffffff; /* White text */
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #6a4f38; /* Lighter brown on hover */
+}
+
+/* Alerts */
+.alert {
+  background-color: #e6d5b8; /* Light beige background for alert */
+  color: #4b3d28; /* Dark brown text */
+  border: 1px solid #4b3d28; /* Dark brown border */
+}
+
+/* Form Labels */
+.col-form-label {
+  font-weight: bold;
+  color: #4b3d28; /* Dark brown */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+}
+
+/* Additional Custom Styling for Success Message */
+.submission-success {
+  text-align: center;
+  color: #4b3d28; /* Dark brown */
+  background-color: #f5e7c8; /* Light beige */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
